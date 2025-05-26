@@ -4,10 +4,8 @@ __Mid Course Assessment__ - ML Case Study
 __Project Name__: Rainfall Prediction 
 __Project Type__: Machine Learning - Logistic Regression 
 
-Project Summary
+Project Summary    
 The Rainfall Prediction project applies machine learning techniques to classify whether rainfall will occur ("Rainfall") or not ("No Rainfall") based on meteorological data. Using logistic regression, the model leverages key weather features like pressure, dew point, humidity, cloud cover, sunshine duration, wind direction, and wind speed.
-
-This project aims to improve rainfall prediction accuracy, which is critical for agriculture, water resource management, urban planning, and disaster preparedness.
 
 __Problem Statement__
 Accurate and timely rainfall prediction is essential for various industries, yet it remains a challenging task due to the complexity and variability of weather patterns. This project seeks to address this challenge through machine learning classification techniques using logistic regression.
@@ -70,9 +68,9 @@ __Making Predictions on New Data__
         print(prediction[0])  # Output: Binary classification (0 = No Rainfall, 1 = Rainfall)
         print("Prediction result:", "Rainfall" if prediction[0] == 1 else "No Rainfall")
     
-        _Example Output:_
-        1
-        Prediction result: Rainfall
+    _Example Output:_
+    1
+    Prediction result: Rainfall
 
 __Documentation & Tutorials:__
 - Scikit-Learn Documentation
