@@ -15,30 +15,19 @@ Accurate and timely rainfall prediction is essential for various industries, yet
 __Dataset Description__
 The dataset contains historical meteorological parameters that influence rainfall. Below are the input features used in the model:
 
-(Variables in the Dataset)
-day: The specific day or date of observation.
-
-pressure: Atmospheric pressure (measured in hPa or mmHg).
-
-maxtemp: Maximum temperature recorded during the day.
-
-temperature: Average temperature for the day.
-
-mintemp: Minimum temperature recorded during the day.
-
-dewpoint: Temperature at which condensation begins (linked to humidity).
-
-humidity: Moisture percentage present in the air.
-
-cloud: Cloud cover percentage in the sky.
-
-rainfall: Amount of rainfall (measured in mm).
-
-sunshine: Duration or intensity of sunlight during the day.
-
-winddirection: Wind direction (measured in degrees or compass direction).
-
-windspeed: Wind speed (measured in m/s or km/h).
+__(Variables in the Dataset)__
+- __day__: The specific day or date of observation.
+- __pressure__: Atmospheric pressure (measured in hPa or mmHg).
+- __maxtemp__: Maximum temperature recorded during the day.
+- __temperature__: Average temperature for the day.
+- __mintemp__: Minimum temperature recorded during the day.
+- __dewpoint__: Temperature at which condensation begins (linked to humidity).
+- __humidity__: Moisture percentage present in the air.
+- __cloud__: Cloud cover percentage in the sky.
+- __rainfall__: Amount of rainfall (measured in mm).
+- __sunshine__: Duration or intensity of sunlight during the day.
+- __winddirection__: Wind direction (measured in degrees or compass direction).
+- __windspeed__: Wind speed (measured in m/s or km/h).
 
 __Target Variable (Output)__
 - Rainfall (Binary Classification)
@@ -65,25 +54,25 @@ __Overall Model Accuracy & Averages__
 - __Macro Average: 0.66 →__ Average performance across both classes.
 - __Weighted Average: 0.71 →__ Accounts for class imbalance.
 
-Making Predictions on New Data
-The model can predict rainfall for unknown input data using standardized features:
+__Making Predictions on New Data__
+- The model can predict rainfall for unknown input data using standardized features:
 
-- __Standardize the input data__
-# Standardize the input data
-    input_data = (1025.9, 19.1, 72, 99, 1, 9.3, 26.3)  # Sample data
-    input_df = pd.DataFrame([input_data], columns=['pressure', 'dewpoint', 'humidity', 'cloud', 'sunshine', 'winddirection', 'windspeed'])
-    input_data_standardized = scaler.transform(input_df)  # Apply feature scaling
-    
-    # Make prediction
-    prediction = model.predict(input_data_standardized)
-    
-    # Print prediction result
-    print(prediction[0])  # Output: Binary classification (0 = No Rainfall, 1 = Rainfall)
-    print("Prediction result:", "Rainfall" if prediction[0] == 1 else "No Rainfall")
 
-    _Example Output:_
-    1
-    Prediction result: Rainfall
+        # Standardize the input data
+        input_data = (1025.9, 19.1, 72, 99, 1, 9.3, 26.3)  # Sample data
+        input_df = pd.DataFrame([input_data], columns=['pressure', 'dewpoint', 'humidity', 'cloud', 'sunshine', 'winddirection', 'windspeed'])
+        input_data_standardized = scaler.transform(input_df)  # Apply feature scaling
+        
+        # Make prediction
+        prediction = model.predict(input_data_standardized)
+        
+        # Print prediction result
+        print(prediction[0])  # Output: Binary classification (0 = No Rainfall, 1 = Rainfall)
+        print("Prediction result:", "Rainfall" if prediction[0] == 1 else "No Rainfall")
+    
+        _Example Output:_
+        1
+        Prediction result: Rainfall
 
 __Documentation & Tutorials:__
 - Scikit-Learn Documentation
