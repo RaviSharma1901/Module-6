@@ -1,0 +1,15 @@
+# Core Libraries for Data Handling & Processing
+numpy==1.23.5
+pandas==1.5.3
+
+# Visualization Libraries
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Machine Learning Libraries
+scikit-learn==1.2.2
+imblearn==0.11.0  # For handling imbalanced datasets (SMOTE)
+
+# Jupyter Notebook Environment
+notebook==6.5.4
+ipython==8.12.0
