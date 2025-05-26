@@ -90,18 +90,6 @@ Using RFM scores as features, K-Means clustering algorithm groups customers base
 - **Matplotlib/Seaborn** - Data visualization
 - **Jupyter Notebook** - Development environment
 
-## Repository Structure
-
-```
-├── Unsupervised_ML_Myntra_Online_Retail_Customer_Segmentation_RFM_KMean(Ravi_Sharma).ipynb
-├── README.md
-├── data/
-│   └── retail_data.csv
-└── results/
-    ├── customer_segments.csv
-    └── cluster_analysis_plots.png
-```
-
 ## Getting Started
 
 ### Prerequisites
