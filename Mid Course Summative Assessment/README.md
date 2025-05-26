@@ -12,7 +12,7 @@ This project aims to improve rainfall prediction accuracy, which is critical for
 __Problem Statement__
 Accurate and timely rainfall prediction is essential for various industries, yet it remains a challenging task due to the complexity and variability of weather patterns. This project seeks to address this challenge through machine learning classification techniques using logistic regression.
 
-__Dataset Description__
+__Dataset Description__  
 The dataset contains historical meteorological parameters that influence rainfall. Below are the input features used in the model:
 
 __(Variables in the Dataset)__
