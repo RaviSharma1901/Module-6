@@ -68,9 +68,9 @@ __Making Predictions on New Data__
         print(prediction[0])  # Output: Binary classification (0 = No Rainfall, 1 = Rainfall)
         print("Prediction result:", "Rainfall" if prediction[0] == 1 else "No Rainfall")
     
-    _Example Output:_
-    1
-    Prediction result: Rainfall
+    _Example Output:_    
+    1    
+    Prediction result: Rainfall  
 
 __Documentation & Tutorials:__
 - Scikit-Learn Documentation
