@@ -21,14 +21,14 @@ __Repository Structure__
     
 __Projects Included__
 - __End Course Capstone Project: Myntra Online Retail Customer Segmentation__
-  -  Applying RFM & K-Means clustering for customer segmentation
-  -  Understanding shopping behavior using transaction data
-  - Leveraging unsupervised learning for targeted marketing strategies
+    -  Applying RFM & K-Means clustering for customer segmentation
+    -  Understanding shopping behavior using transaction data
+    - Leveraging unsupervised learning for targeted marketing strategies
 
-__Mid Course Assessment: Rainfall Prediction ML Case Study__
-- Using logistic regression to predict rainfall based on meteorological data
-- Exploratory Data Analysis (EDA) and feature engineering for accurate predictions
-- Evaluating classification metrics like precision, recall, and F1-score
+- __Mid Course Assessment: Rainfall Prediction ML Case Study__
+    - Using logistic regression to predict rainfall based on meteorological data
+    - Exploratory Data Analysis (EDA) and feature engineering for accurate predictions
+    - Evaluating classification metrics like precision, recall, and F1-score
 
 __Technologies Used__
 - __Python__ – Machine Learning, Data Analysis
