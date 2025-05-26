@@ -98,9 +98,16 @@ Using RFM scores as features, K-Means clustering algorithm groups customers base
 
 ### Running the Analysis
 1. Clone the repository
-2. Open the Jupyter notebook
-3. Run all cells sequentially
-4. View results and visualizations
+    
+       git clone https://github.com/RaviSharma1901/Module-6
+       cd "Module-6/End_Course_Capstone_Project_ML"
+
+3. Open the Jupyter notebook
+
+       jupyter notebook Mid_Course_Assessment_ML_Case_Study_Ravi_Sahrma.ipynb
+   
+5. Run all cells sequentially
+6. View results and visualizations
 
 ## Business Impact
 
