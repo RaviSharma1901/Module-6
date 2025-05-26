@@ -9,7 +9,7 @@
 
 This project focuses on leveraging customer transaction data from Myntra, a leading Indian fashion e-commerce platform, to segment the customer base using RFM analysis and K-Means clustering. The analysis includes records from Myntra Gifts Ltd., its UK-based subsidiary, to understand purchasing behavior across different markets and implement targeted marketing strategies.
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Myntra faces challenges in marketing to its heterogeneous customer base. This project aims to utilize historical retail transaction data to uncover actionable customer segments using unsupervised machine learning techniques. By applying RFM (Recency, Frequency, Monetary) analysis and K-Means clustering, we intend to:
 
@@ -19,7 +19,7 @@ Myntra faces challenges in marketing to its heterogeneous customer base. This pr
 - Improve customer retention rates
 - Understand diverse purchasing patterns across different markets
 
-## 📊 Dataset Features
+## Dataset Features
 
 | Feature | Description |
 |---------|-------------|
@@ -32,7 +32,7 @@ Myntra faces challenges in marketing to its heterogeneous customer base. This pr
 | **UnitPrice** | Price per unit of each product for monetary calculations |
 | **InvoiceDate** | Transaction timestamp for determining recency in RFM analysis |
 
-## 🔬 Methodology
+## Methodology
 
 ### RFM Analysis
 The foundation of customer segmentation based on three key metrics:
@@ -46,7 +46,7 @@ This analysis provides a comprehensive picture of customer value and engagement 
 ### K-Means Clustering
 Using RFM scores as features, K-Means clustering algorithm groups customers based on their behavior patterns into distinct segments, enabling customized engagement strategies.
 
-## 📈 Results & Customer Segments
+## Results & Customer Segments
 
 ### Optimal Clustering: K=4
 
